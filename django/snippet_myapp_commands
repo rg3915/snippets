@@ -1,0 +1,9 @@
+# https://docs.djangoproject.com/en/1.8/howto/custom-management-commands/
+# https://django-document-tchinese.readthedocs.org/en/stable-1.3.x/howto/custom-management-commands.html
+
+myapp/__init__.py
+myapp/management/__init__.py
+myapp/management/commands/__init__.py
+myapp/management/commands/icreclameaquiapi.py
+
+python manage.py icreclameaquiapi --since="2015-06-22" --until="2015-06-22"

@@ -1,0 +1,34 @@
+tint2
+
+ssh root@162.243.255.67
+
+ps aux | grep nginx
+ps aux | grep gunicorn
+ps aux | grep python
+find / -name "active_this.py"
+cd /home/lpenv
+cd /etc/nginx
+nano uwsgi_params
+service
+nano sites-enabled/default
+source bin/activate
+cd src
+find / -name "models.py"
+
+# tutorial http://michal.karzynski.pl/blog/2013/06/09/django-nginx-gunicorn-virtualenv-supervisor/
+
+pip2 install gunicorn setprocfile
+wich gunicorn
+nano /home/lpenv/bin/gunicorn_start.sh
+sudo su - hello
+apt-get install supervisor
+ifconfig
+
+Task
+
+configurar
+
+* gunicorn
+* nginx
+* supervisor
+

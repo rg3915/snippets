@@ -1,0 +1,2 @@
+STRING="teste"
+echo $STRING
